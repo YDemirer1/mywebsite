@@ -1,0 +1,215 @@
+ @import url('https://overpass-30e2.kxcdn.com/overpass.css');
+ @import url('https://fonts.googleapis.com/css?family=Work Sans');
+
+ body {
+     background-color: #E8ECEB;
+     color: #3d3e47;
+     display: flex;
+     flex-direction: column;
+     font-family: 'Work Sans';
+ }
+
+ header {
+    text-align: center;
+    padding: 5px;
+    font-family: 'Overpass';
+    font-size: 26px;
+    background-color: #2D3E4E;
+    color: #E8ECEB;
+    border-radius: 5px;
+ }
+
+ #flex_container_navbar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#nav_button {
+    border-radius: 10px;
+    height: 46px;
+    width: 90px;
+    float: right;
+    font-size: 18px;
+    font-family: 'Overpass';
+    background-color: #E09E50;
+    color: #E8ECEB;
+    height: auto;
+    width: 120px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background .5s ease-in-out;
+    margin: 1%;
+    text-decoration: none;
+ }
+
+ #nav_button:hover {
+    background: #E8ECEB;
+    color: #E09E50;
+}
+ 
+#contact {
+    padding-top: 5vh;
+    height: auto;
+    font-family: 'Work Sans';
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 30%;
+}
+
+#contact_me_title {
+    letter-spacing: 0.1px;
+    font-family: 'Work Sans';
+    font-size: 17px;
+}
+
+#title_top {
+    font-family: 'Work Sans';
+    font-size: 32px;
+    letter-spacing: -0.02em;
+    font-weight: 900;
+}
+
+input {
+    background: #2D3E4E;
+    color: #E8ECEB;
+    font-family: inherit;
+    letter-spacing: 1px;
+    width: 360px;
+    height: 20px;
+    padding: 10px;
+    margin: 0.6vh;
+    border: none;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+input:hover {
+    background-color: #8CBDB9;
+    color: #2d2b2b;
+    transition: 0.4s ease-out;
+}
+
+input:focus {
+    color: #918e8e;
+    outline: none;
+}
+
+input::placeholder {
+    color: #E8ECEB;
+}
+
+textarea {
+    background: #2D3E4E;
+    color: #E8ECEB;
+    font-family: inherit;
+    letter-spacing: 1px;
+    width: 360px;
+    height: 80px;
+    padding: 10px;
+    margin: 0.6vh;
+    border: none;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+textarea:hover {
+    background-color: #8CBDB9;
+    color: #2d2b2b;
+    transition: 0.4s ease-out;
+}
+
+textarea:focus {
+    color: #E8ECEB;
+    outline: none;
+}
+
+textarea::placeholder {
+    color: #E8ECEB;
+}
+
+#submit {
+    width: 120px;
+    height: auto;
+    color: #E8ECEB;
+}
+
+#social_icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+#social_icon {
+    padding: 1.5vh;
+    margin: 0.5vh;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    color: #E8ECEB;
+    background-color: #8CBDB9;
+    font-family: 'Work Sans';
+    font-size: 14px;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    color: #E8ECEB;
+    background-color: #8CBDB9;
+    font-family: 'Work Sans';
+    font-size: 14px;
+}

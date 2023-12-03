@@ -1,0 +1,207 @@
+ @import url('https://overpass-30e2.kxcdn.com/overpass.css');
+ @import url('https://fonts.googleapis.com/css?family=Work Sans');
+
+body {
+    background-color: #E8ECEB;
+    color: #3d3e47;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Work Sans';
+}
+
+header {
+    text-align: center;
+    padding: 5px;
+    font-family: 'Overpass';
+    font-size: 26px;
+    background-color: #2D3E4E;
+    color: #E8ECEB;
+    border-radius: 5px;
+}
+
+#flex_container_navbar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#nav_button {
+    border-radius: 10px;
+    height: 46px;
+    width: 90px;
+    float: right;
+    font-size: 18px;
+    font-family: 'Overpass';
+    background-color: #E09E50;
+    color: #E8ECEB;
+    height: auto;
+    width: 120px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background .5s ease-in-out;
+    margin: 1%;
+    text-decoration: none;
+}
+
+#nav_button:hover {
+    background: #E8ECEB;
+    color: #E09E50;
+}
+
+#flex_container_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 20vh;
+}
+
+#flex_container_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    font-family: 'Montserrat';
+    padding: 1vh 5vh 5vh 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 65vh;
+}
+
+#flex_container_skills {
+    padding: 2vh;
+    width: 25%;
+    font-family: 'Work Sans';
+    font-size: 17px;
+}
+
+.skills_icon {
+    padding: 2vh;
+    max-height: 12vh;
+    width: auto;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+    padding: 2px;
+}
+
+#myBar1 {
+    width: 1%;
+    height: 30px;
+    background-color: #dc4a2d;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ddd;
+}
+
+#progress_button1 {
+    background: transparent;
+    border: none !important;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    font-family: 'Montserrat';
+    background-color: #dc4a2d;
+    color: #ddd;
+    height: 46px;
+    width: 90px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background .5s ease-in-out;
+    position: relative;
+}
+
+#progress_button1:hover {
+    background: #ECECEC;
+    color: #dc4a2d;
+}
+
+#myBar2 {
+    width: 1%;
+    height: 30px;
+    background-color: #116fb6;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ddd;
+}
+
+#progress_button2 {
+    background: transparent;
+    border: none !important;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    font-family: 'Montserrat';
+    background-color: #116fb6;
+    color: #ddd;
+    height: 46px;
+    width: 90px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background .5s ease-in-out;
+    position: relative;
+}
+
+#progress_button2:hover {
+    background: #ECECEC;
+    color: #116fb6;
+}
+
+#myBar3 {
+    width: 1%;
+    height: 30px;
+    background-color: #e3c53f;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ddd;
+}
+
+#progress_button3 {
+    background: transparent;
+    border: none !important;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    font-family: 'Montserrat';
+    background-color: #e3c53f;
+    color: #ddd;
+    height: 46px;
+    width: 90px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background .5s ease-in-out;
+    position: relative;
+}
+
+#progress_button3:hover {
+    background: #ECECEC;
+    color: #e3c53f;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    color: #E8ECEB;
+    background-color: #8CBDB9;
+    font-family: 'Work Sans';
+    font-size: 14px;
+}
